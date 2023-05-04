@@ -1,0 +1,51 @@
+{
+  "id": "4046550",
+  "name": "vue后台管理",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "11372676",
+      "name": "密码",
+      "font_class": "mima",
+      "unicode": "e8b2",
+      "unicode_decimal": 59570
+    },
+    {
+      "icon_id": "35274887",
+      "name": "003_开户",
+      "font_class": "a-003_kaihu",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "35274889",
+      "name": "003_删除",
+      "font_class": "a-003_shanchu",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "35274904",
+      "name": "003_图片",
+      "font_class": "a-003_tupian",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "35274910",
+      "name": "003_设置",
+      "font_class": "a-003_shezhi",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "35274913",
+      "name": "003_我的",
+      "font_class": "a-003_wode",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    }
+  ]
+}

@@ -1,12 +1,42 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
+import Login from '@/components/Login'
+import home from '@/components/home'
 
 Vue.use(VueRouter)
 
-const routes = []
+const routes = [
+  /* 设置重定向到登录页 */
+  {
+    path: '/',
+    redirect: '/login'
+  },
+  {
+    path: '/login',
+    component: Login
+  },
+  {
+    path: '/home',
+    component: home
+  }
+]
 
-const router = new VueRouter({
+const router = new VueRouter({  
   routes
+})
+
+/* 导航守卫 */
+router.beforeEach((to, from, next) => {
+  /* 根据本地存储是否存在 token 没有就强制到login */
+  if (to.path === '/login') {
+    next()
+  } else {
+    if (window.sessionStorage.getItem('token')) {
+      next()
+    } else {
+      next('/login')
+    }
+  }
 })
 
 export default router
