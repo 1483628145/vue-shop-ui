@@ -1,3 +1,4 @@
+/* 路由配置 */
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Login from '@/components/Login'
@@ -5,6 +6,8 @@ import home from '@/components/home'
 import goods from '@/components/goods'
 import users from '@/views/users'
 import welcome from '@/views/welcome'
+import rights from '@/components/powers/rights'
+import roles from '@/components/powers/roles'
 
 Vue.use(VueRouter)
 
@@ -30,6 +33,14 @@ const routes = [
       {
         path: 'welcome',
         component: welcome
+      },
+      {
+        path: 'rights',
+        component: rights
+      },
+      {
+        path: 'roles',
+        component: roles
       }
     ]
   },

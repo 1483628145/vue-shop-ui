@@ -49,7 +49,7 @@
             <el-button type="danger" icon="el-icon-delete" circle @click="deleteUser(scope.row.id)"></el-button>
             <!-- 分配权限 -->
             <el-tooltip class="item" effect="dark" content="分配角色" placement="top">
-              <el-button type="warning" icon="el-icon-star-off" circle></el-button>
+              <el-button type="warning" icon="el-icon-setting" circle></el-button>
             </el-tooltip>
           </template>
         </el-table-column>

@@ -6,7 +6,7 @@
         <span>后台管理系统</span>
       </div>
       <!-- 退出登录 -->
-      <el-button type="info" @click="logout">退出登录</el-button>
+            <el-button type="info" @click="logout" >退出登录</el-button>
     </el-header>
     <el-container>
       <!-- 左侧侧边栏 -->
@@ -67,6 +67,7 @@ export default {
   color: #fff;
   height: 100%;
 }
+
 
 .el-header {
   display: flex;
